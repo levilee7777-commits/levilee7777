@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李恩雨 Levi Lee | CFP® 國際認證理財規劃顧問・獨立財務顧問</title>
+  <meta name="description" content="理財從理心開始。提供客觀獨立的全生涯財務規劃、收支資產管理、風險缺口盤點與企業教會培訓講座。">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              green: '#1E3A2B', // 沉穩森林綠（象徵管家忠心與生命樹）
+              gold: '#D9822B',  // 琥珀金（溫暖、希望）
+              cream: '#F9F8F5', // 燕麥米白底色
+              card: '#FFFFFF',
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans TC"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-cream text-stone-800 antialiased font-sans selection:bg-brand-gold selection:text-white">
+
+  <!-- 導覽列 Navigation -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-xl tracking-wide text-brand-green">LEVI LEE <span class="text-xs font-normal text-stone-500 tracking-normal ml-1">李恩雨</span></a>
+      <div class="hidden md:flex space-x-8 text-sm font-medium text-stone-600">
+        <a href="#about" class="hover:text-brand-gold transition">關於恩雨</a>
+        <a href="#methodology" class="hover:text-brand-gold transition">核心理念</a>
+        <a href="#cases" class="hover:text-brand-gold transition">實績案例</a>
+        <a href="#services" class="hover:text-brand-gold transition">服務項目</a>
+      </div>
+      <a href="#contact" class="bg-brand-green hover:bg-emerald-900 text-white text-sm px-5 py-2.5 rounded-full transition shadow-sm font-medium">預約諮詢</a>
+    </div>
+  </nav>
+
+  <!-- 首屏 Hero Section -->
+  <header class="py-20 md:py-28 px-6 max-w-5xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100/70 text-emerald-800 text-xs font-medium mb-6">
+      <span>🌱 理財先理心・過不憂慮的豐盛生活</span>
+    </div>
+    <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold text-stone-900 tracking-tight leading-tight md:leading-snug mb-6">
+      不推銷特定商品<br class="hidden sm:inline">
+      只做你家庭專屬的<span class="text-brand-green underline decoration-brand-gold decoration-wavy decoration-2">財務建築師</span>
+    </h1>
+    <p class="text-lg md:text-xl text-stone-600 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+      我是李恩雨 Levi。CFP® 國際認證理財顧問、三寶爸。結合國際標準規劃架構與深厚同理心，陪你看清財務全貌，找回面對未來的平安心境。
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="#contact" class="w-full sm:w-auto bg-brand-gold hover:bg-amber-600 text-white font-medium px-8 py-3.5 rounded-xl transition shadow-md hover:shadow-lg">
+        預約 60 分鐘財務探索諮詢
+      </a>
+      <a href="#about" class="w-full sm:w-auto bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 font-medium px-8 py-3.5 rounded-xl transition">
+        認識我的諮詢方式
+      </a>
+    </div>
+
+    <!-- 信任標章 Badges -->
+    <div class="mt-16 pt-10 border-t border-stone-200/80 grid grid-cols-2 sm:grid-cols-4 gap-6 text-stone-600">
+      <div>
+        <p class="text-2xl font-bold text-brand-green">CFP® / RFC</p>
+        <p class="text-xs text-stone-500 mt-1">國際雙認證理財規劃顧問</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-brand-green">1,000+</p>
+        <p class="text-xs text-stone-500 mt-1">巡迴講座累計聽眾人次</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-brand-green">33+ 場</p>
+        <p class="text-xs text-stone-500 mt-1">企業、學校與教會培訓</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-brand-green">心學堂</p>
+        <p class="text-xs text-stone-500 mt-1">陳敏莉老師特助 / 顧問團隊</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- 痛點直擊 Pain Points -->
+  <section class="py-16 bg-stone-100">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold text-stone-900">你是否也在這些財務十字路口感到徬徨？</h2>
+        <p class="text-sm text-stone-500 mt-2">「不知旅途終點的方向，比缺乏資源更可怕。」</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200/60">
+          <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center text-brand-gold font-bold mb-4">01</div>
+          <h3 class="font-bold text-stone-800 mb-2">收支失衡與存錢焦慮</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">收入明明不算低，但每個月家庭開銷沉重，不知道錢到底花去哪裡，無法穩定累積第二人生預備金。</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200/60">
+          <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-brand-green font-bold mb-4">02</div>
+          <h3 class="font-bold text-stone-800 mb-2">金融商品雜亂無序</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">買了一堆儲蓄險、醫療險、ETF與基金，卻不知道每項工具在你的生涯目標中到底扮演什麼角色。</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200/60">
+          <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center text-brand-gold font-bold mb-4">03</div>
+          <h3 class="font-bold text-stone-800 mb-2">市場波動的人性拉扯</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">想投資又怕受傷害，常在「貪（想賺快錢）」與「怕（市場下跌）」之間徘徊，缺乏一套能安心睡好覺的紀律策略。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心架構 Methodology -->
+  <section id="methodology" class="py-20 max-w-5xl mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="text-brand-gold font-semibold text-xs tracking-wider uppercase">Methodology</span>
+      <h2 class="text-3xl font-bold text-stone-900 mt-2">扎根穩固的「理財樹」三根基</h2>
+      <p class="text-stone-600 text-sm mt-3">跳脫商品買賣的零和思維，回歸家庭財務的健康根本架構。</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-8 rounded-2xl bg-white border border-stone-200 shadow-sm relative overflow-hidden">
+        <div class="text-4xl mb-4">🪴</div>
+        <h3 class="text-xl font-bold text-brand-green mb-3">1. 收支管理</h3>
+        <p class="text-xs text-stone-500 mb-4 font-mono">收入 - 支出 = 結餘</p>
+        <ul class="text-sm text-stone-600 space-y-2 leading-relaxed">
+          <li>• 建立家庭專屬 <strong>ABC 帳戶分流</strong></li>
+          <li>• 釐清基礎生活 vs 品味生活花費</li>
+          <li>• 儲備 6 個月以上生活緊急預備金</li>
+        </ul>
+      </div>
+
+      <div class="p-8 rounded-2xl bg-white border border-stone-200 shadow-sm relative overflow-hidden">
+        <div class="text-4xl mb-4">⚖️</div>
+        <h3 class="text-xl font-bold text-brand-green mb-3">2. 信用與資產</h3>
+        <p class="text-xs text-stone-500 mb-4 font-mono">資產 - 負債 = 淨值</p>
+        <ul class="text-sm text-stone-600 space-y-2 leading-relaxed">
+          <li>• 負債比率優化（償債支出比 ≤ 30%）</li>
+          <li>• 生息資產與自用資產結構調整</li>
+          <li>• 貫徹「克貪、克怕、紀律」的投資雙Q</li>
+        </ul>
+      </div>
+
+      <div class="p-8 rounded-2xl bg-white border border-stone-200 shadow-sm relative overflow-hidden">
+        <div class="text-4xl mb-4">🛡️</div>
+        <h3 class="text-xl font-bold text-brand-green mb-3">3. 風險管理</h3>
+        <p class="text-xs text-stone-500 mb-4 font-mono">應備 - 已備 = 缺口</p>
+        <ul class="text-sm text-stone-600 space-y-2 leading-relaxed">
+          <li>• 精算「老、病、死、殘」真實家庭缺口</li>
+          <li>• 以最低成本換取最高額核心保障</li>
+          <li>• 剔除人情保單，保費合理化釋放現金流</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 真實案例 Cases -->
+  <section id="cases" class="py-20 bg-stone-100">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-brand-gold font-semibold text-xs tracking-wider uppercase">Case Studies</span>
+        <h2 class="text-3xl font-bold text-stone-900 mt-2">真實執案的轉變軌跡</h2>
+        <p class="text-stone-600 text-sm mt-2">數字背後，是每一個重獲自由與平安的生命故事。</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 案例 1 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 bg-amber-100 text-amber-800 rounded-full">負債與收支重組</span>
+              <span class="text-xs text-stone-400">34 歲女性・長照居服員</span>
+            </div>
+            <h3 class="font-bold text-lg text-stone-800 mb-3">從負債 130 萬到買房儲蓄啟航</h3>
+            <p class="text-sm text-stone-600 leading-relaxed mb-4">
+              過去因婚姻與投資失利造成負債沉重，年收支赤字 15 萬元。經過完整盤點，重新梳理債務優先順序，並將年繳保費由 6.5 萬元精簡至 2.4 萬元，保障缺口補足 100%，重拾對生活與買房夢想的掌控權。
+            </p>
+          </div>
+          <div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-xs text-emerald-800 font-medium">
+            💡 效益：保費下降 62%，釋放現金流，啟動穩定還款與儲蓄排程。
+          </div>
+        </div>
+
+        <!-- 案例 2 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full">高收生涯風險防護</span>
+              <span class="text-xs text-stone-400">24 歲男性・職棒球員</span>
+            </div>
+            <h3 class="font-bold text-lg text-stone-800 mb-3">高薪期的未雨綢繆與退役安養模型</h3>
+            <p class="text-sm text-stone-600 leading-relaxed mb-4">
+              職業選手收入高但黃金運動期短暫。協助建立「球員黃金期－退役轉教練－50歲全退休」的長線資產模擬，透過信託專戶與核心 ETF 累積，避免揮霍，確保在球員生涯終止後仍具備終生穩定的被動現金流。
+            </p>
+          </div>
+          <div class="p-4 bg-amber-50 rounded-xl border border-amber-100 text-xs text-amber-800 font-medium">
+            💡 效益：量化人生三階段開銷，打造退役不慌張的資產護城河。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 關於恩雨 About Levi -->
+  <section id="about" class="py-20 max-w-5xl mx-auto px-6">
+    <div class="bg-white rounded-3xl border border-stone-200 p-8 md:p-12 shadow-sm">
+      <div class="flex flex-col md:flex-row gap-10 items-center">
+        <div class="w-40 h-40 md:w-52 md:h-52 rounded-full bg-brand-green/10 border-4 border-white shadow-md flex-shrink-0 flex items-center justify-center text-5xl">
+          👨‍👩‍👧‍👦
+        </div>
+        <div>
+          <span class="text-brand-gold font-semibold text-xs tracking-wider uppercase">About Me</span>
+          <h2 class="text-2xl md:text-3xl font-bold text-stone-900 mt-1 mb-4">你好，我是李恩雨 Levi</h2>
+          <p class="text-sm md:text-base text-stone-600 leading-relaxed mb-4">
+            我在牧師家庭長大，與妻子伊真育有三個寶貝：信實（7歲）、廣大（4歲）與美善（2歲）。從大專校園學生輔導跨入金融規劃，我深切體會到：<strong>家庭的平安，往往繫於健康的財務紀律與清澈的心。</strong>
+          </p>
+          <p class="text-sm md:text-base text-stone-600 leading-relaxed mb-6">
+            除了獨立執案，我也長期擔任台灣財務顧問先驅<strong>陳敏莉老師</strong>的特助與心學堂團隊成員。我熱愛溝通、引導與同理，我不把你看成一張保單或一個投資帳戶，而是看重上帝託付給你與家庭的獨特命定。
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs text-stone-500">
+            <span class="px-3 py-1 bg-stone-100 rounded-md">CFP® 國際認證理財顧問</span>
+            <span class="px-3 py-1 bg-stone-100 rounded-md">RFC 國際認證財務顧問師</span>
+            <span class="px-3 py-1 bg-stone-100 rounded-md">蓋洛普優勢分析教練</span>
+            <span class="px-3 py-1 bg-stone-100 rounded-md">Podcast《陪你走段路》主理人</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 預約諮詢表單 Contact / CTA -->
+  <section id="contact" class="py-20 bg-brand-green text-white">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">理財，從理心開始</h2>
+      <p class="text-stone-300 text-sm md:text-base leading-relaxed mb-10">
+        不管你現在正處於債務困擾、收支混亂，或是正思考著下一步的買房與退休佈局，我都願意以最客觀、誠實的角度，陪你走這段關鍵的路。
+      </p>
+
+      <div class="bg-white text-stone-800 p-8 rounded-3xl shadow-xl max-w-lg mx-auto text-left">
+        <h3 class="font-bold text-xl mb-4 text-center text-brand-green">預約 60 分鐘線上探索對話</h3>
+        <p class="text-xs text-stone-500 mb-6 text-center">釐清你目前的財務卡點，評估是否需要進一步的全生涯深度規劃。</p>
+        
+        <form class="space-y-4" onsubmit="event.preventDefault(); alert('感謝您的預約！恩雨將盡快透過 Email / Line 與您聯繫。');">
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 mb-1">您的姓名</label>
+            <input type="text" required placeholder="例如：林先生 / 陳小姐" class="w-full text-sm px-4 py-2.5 rounded-xl border border-stone-300 focus:outline-none focus:border-brand-gold">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 mb-1">聯絡 Email</label>
+            <input type="email" required placeholder="yourname@email.com" class="w-full text-sm px-4 py-2.5 rounded-xl border border-stone-300 focus:outline-none focus:border-brand-gold">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 mb-1">您目前最想討論的議題</label>
+            <select class="w-full text-sm px-4 py-2.5 rounded-xl border border-stone-300 focus:outline-none focus:border-brand-gold bg-white">
+              <option>收支失衡 / 存不下錢（ABC 帳戶）</option>
+              <option>保單健診與人身風險規劃</option>
+              <option>資產配置與定期定額投資策略</option>
+              <option>買房 / 子女教育金 / 退休規劃</option>
+              <option>企業 / 團體 / 教會講座邀約</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 mb-1">簡短備註（選填）</label>
+            <textarea rows="3" placeholder="簡短描述您目前的狀態..." class="w-full text-sm px-4 py-2.5 rounded-xl border border-stone-300 focus:outline-none focus:border-brand-gold"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-brand-gold hover:bg-amber-600 text-white font-bold py-3.5 rounded-xl transition shadow-md mt-2">
+            送出預約申請
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 頁尾 Footer -->
+  <footer class="py-10 bg-stone-900 text-stone-500 text-xs text-center border-t border-stone-800">
+    <div class="max-w-5xl mx-auto px-6 space-y-3">
+      <p class="text-stone-400 font-medium">李恩雨 Levi Lee・獨立收費制理財規劃顧問</p>
+      <p>專業諮詢・全生涯財務規劃・企業與社群財務教育</p>
+      <p class="pt-4 text-stone-600">© 2026 Levi Lee. All Rights Reserved. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
